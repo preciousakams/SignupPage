@@ -1,0 +1,47 @@
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid white;
+   background-color: white;
+   border-radius: 1.25rem;
+   padding: 32px 32px 40px;
+  }
+button{
+    background-color: rgb(8, 62, 158);
+    color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-left: 30%;
+    text-transform: uppercase;
+    font-size: .875rem;
+    text-align: center;
+    padding: 20px 40px 16px;
+    box-sizing: inherit;
+   
+    
+}
+input{
+    background-color:#edf2f7;
+    width: 98%;
+    padding: 12px 8px 12px 12px;
+    margin: 8px;
+    border: solid transparent;
+    
+}
+
+.piggy{
+   text-align: center;
+}
+h1{
+    color: #083e9e;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+label{
+    font-size: .75rem;
+    font-weight: 700;
+    color: #4a5568;
+}
