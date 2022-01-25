@@ -20,59 +20,43 @@
                    <h1>Create A Secure Account</h1>
                    <!-- <p>Welcome to the future of savings and investments</p> -->
                </header>
-           <form action="" method="" class="">
+           <form action="/index.html" method="post" id="signup">
          <!-- <h1>Create Account</h1> -->
         <div class="details">
             <label for="firstname"><b>First Name</b> </label>
-            <input type="text" placeholder="Your First name"><br> 
+            <input type="text" placeholder="Your First name" name="firstname"><br>
+            <small></small> 
         </div> 
             <div class="details"> 
                 <label for="lastname"><b>Last Name</b> </label>
-               <input type="text" placeholder="Your Last name"><br>
+               <input type="text" placeholder="Your Last name" name="lastname"><br>
+               <small></small>
              </div>
                <div class="details"><label for="email"><b>Email</b> </label>
-         <input type="email" placeholder="Your Email"><br>
+         <input type="email" placeholder="Your Email" name="email"><br>
+         <small></small>
          </div>
          <div class="details">
              <label for="password1"><b>Password</b> </label>
-            <input type="password" placeholder="Your Password"><br>
+            <input type="password" placeholder="Your Password" name="password"><br>
+            <small></small>
             </div>
-            <div class="details">
-                 <label for="password2"><b>Repeat Password</b></label>
-                <input type="password" placeholder="Repeat Your Password"><br>
-            </div>
+          
             <div class="details">
                 <label for="contactAddress"><b>Contact Address</b></label>
-            <input type="text" placeholder="Your Contact Address"><br>
+            <input type="text" placeholder="Your Contact Address" name="address"><br>
+            <small></small>
             </div>
             <div class="details">
                 <label for="phoneNumber"><b>Phone Number</b> </label>
-            <input type="number" placeholder="Your Phone number"><br>
+            <input type="number" placeholder="Your Phone number" name="phone"><br>
+            <small></small>
             </div>
-            <!-- <div class="details">
-                <label for="businessLocation"><b>Business Location</b></label>
-                <input type="text" placeholder="Your Business Location"><br>
-                </div>
-                <div class="details">
-                    <label for="businessDescription"><b>Business Description</b></label>
-                <input type="text" placeholder="Your Business Description"><br>
-                </div> -->
-                <!-- <div class="details">
-                      <label for="businessOwner"> <b>Name Of Business Owner</b></label>
-                    <input type="text" placeholder="Fullname Of Business Owner"><br>
-                    </div>
-                    <div class="details">
-                         <label for="businessOwnerContact"><b>Business Owner's Contact Address</b></label>
-                        <input type="text" placeholder="Business Owner's Contact Address"><br> 
-                        </div>
-                        <div class="details">
-                             <label for="BusinessOwnerNumber"><b>Business Owner's Phone Number</b></label>
-                        <input type="number" placeholder="Business Owner's Phone number"><br>
-                        </div> -->
-                        <button>create account</button>
+           
+                        <button id="create" type="submit">create account</button>
                      </form>
+
          </div>
-     <!-- </div> -->
-   
+ <script src="/app.js"></script>
 </body>
 </html>
